@@ -1,0 +1,130 @@
+{
+    "user": {
+        "username": "michelscott1",
+        "firstName": "Michael",
+        "lastName": "Scott",
+        "email": "michael.scott@gmail.com",
+        "phoneNumber": "1234567890",
+        "relationToCouple": "Boss"
+    },
+    "eventInfo": {
+        "ceremony": {
+            "servicesRequested": true,
+            "startTime": "3:00 PM",
+            "endTime": "4:00 PM",
+            "location": "Scranton Church",
+            "services": {
+                "ceremonyMusic": true,
+                "microphones": true
+            }
+        },
+        "reception": {
+            "servicesRequested": true,
+            "startTime": "5:00 PM",
+            "endTime": "10:00 PM",
+            "newlyWedArrivalTime": "6:00 PM",
+            "location": "Scranton Reception Hall",
+            "services": {
+                "grandEntrance": true,
+                "dinnerMusic": true,
+                "danceMusic": true,
+                "danceLights": true,
+                "staticUplights": false,
+                "dmxUplights": true,
+                "goboLight": true,
+                "projector": true
+            }
+        }
+    },
+    "people": {
+        "weddingCouple": {
+            "partner1": {
+                "firstName": "Jim",
+                "lastName": "Halpert",
+                "partnerType": {
+                    "bride": false,
+                    "groom": true
+                }
+            },
+            "partner2": {
+                "firstName": "Pam",
+                "lastName": "Beesly",
+                "partnerType": {
+                    "bride": true,
+                    "groom": false
+                }
+            }
+        },
+        "partner1Party": [
+            {
+                "firstName": "Dwight",
+                "lastName": "Schrute",
+                "phonetic": "D-white Shrewt",
+                "type": {
+                    "maidOfHonor": false,
+                    "bestMan": true,
+                    "bridesmaid": false,
+                    "groomsman:": false,
+                    "mother": false,
+                    "father": false,
+                    "usher": false,
+                    "flowerGirl": false,
+                    "ringerBearer": false
+                }
+            }
+        ],
+        "partner2Party": [
+            {
+                "firstName": "Angela",
+                "lastName": "Martin",
+                "phonetic": "Ann-gel-uh mar-tin",
+                "type": {
+                    "maidOfHonor": true,
+                    "bestMan": false,
+                    "bridesmaid": false,
+                    "groomsman:": false,
+                    "mother": false,
+                    "father": false,
+                    "usher": false,
+                    "flowerGirl": false,
+                    "ringerBearer": false
+                }
+            }
+        ]
+    },
+    "music": {
+        "ceremony": {
+            "songs": [
+                {
+                    "title": "",
+                    "artist": "",
+                    "event": ""
+                }
+            ]
+        },
+        "reception": {
+            "genres": {
+                "classicRock": true,
+                "modernPop": true,
+                "lineDance": true,
+                "country": true,
+                "alternative": true,
+                "hipHop": true,
+                "oldSchool": true,
+                "swing": true,
+                "fifties": true,
+                "sixites": true,
+                "seventies": true,
+                "eighties": true,
+                "nineties": true
+            },
+            "songs": [
+                {
+                    "title": "",
+                    "artist": "",
+                    "event": ""
+                }
+            ]
+        }
+    }
+}
