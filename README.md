@@ -1,1 +1,1 @@
-# wedding-event-database
+# event-planner-database
